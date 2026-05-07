@@ -259,18 +259,11 @@ python bi_agent.py
 ```text
 AI-Powered-Business-Intelligence-Agent/
 │
-├── dataset/
-│   └── reviews.csv
-│
 ├── screenshots/
 │   ├── chatbot_ui.png
 │   ├── dashboard.png
 │
-├── ppt/
-│   └── presentation.pptx
-│
-├── report/
-│   └── final_report.pdf
+├── AI-Powered Business Intelligence Agent.pptx
 │
 ├── bi_agent.py
 ├── requirements.txt
