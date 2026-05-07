@@ -47,7 +47,7 @@ The chatbot can answer queries related to:
 * Risk estimation
 * Scenario analysis
 
-## Power BI Dashboard
+## Python BI Dashboard
 
 Interactive dashboard containing:
 
@@ -132,7 +132,7 @@ Dataset Link:
               ┌───────────────┴───────────────┐
               ▼                               ▼
    ┌────────────────────┐          ┌────────────────────┐
-   │ Chatbot Interface  │          │ Power BI Dashboard │
+   │ Chatbot Interface  │          │ Python BI Dashboard │
    │ Tkinter-based UI   │          │ Interactive Visuals│
    └────────────────────┘          └────────────────────┘
 ```
@@ -156,7 +156,7 @@ Business Insight Generation
         ↓
 Chatbot Query Processing
         ↓
-Power BI Dashboard Visualization
+Dashboard Visualization
 ```
 
 ---
@@ -172,7 +172,6 @@ Power BI Dashboard Visualization
 | NLTK       | NLP preprocessing       |
 | Matplotlib | Data visualization      |
 | Tkinter    | Chatbot GUI             |
-| Power BI   | Dashboard visualization |
 
 ---
 
@@ -255,21 +254,13 @@ python bi_agent.py
 
 ---
 
-# Export Processed Dataset for Power BI
-
-```python
-df.to_csv("processed_reviews.csv", index=False)
-```
-
----
-
 # Project Structure
 
 ```text
 AI-Powered-Business-Intelligence-Agent/
 │
 ├── dataset/
-│   └── processed_reviews.csv
+│   └── reviews.csv
 │
 ├── screenshots/
 │   ├── chatbot_ui.png
@@ -298,19 +289,6 @@ AI-Powered-Business-Intelligence-Agent/
 * Strong customer satisfaction observed
 * Forecasting identified future risk trends
 * Business recommendations generated successfully
-
----
-
-# Future Scope
-
-Future enhancements may include:
-
-* BERT/VADER sentiment models
-* Real-time API integration
-* Web-based deployment
-* Multi-language sentiment analysis
-* Deep learning forecasting models
-* Cloud-based analytics integration
 
 ---
 
